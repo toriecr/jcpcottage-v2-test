@@ -1,5 +1,15 @@
 import React from "react"
+import Layout from "../components/Layout"
+import About from "../components/About"
+import Services from "../components/Services"
+import Amenities from "../components/Amenities"
 
-export default function Home() {
-  return <div>Hello world!</div>
+export default () => {
+  return (
+    <Layout>
+      <About />
+      <Services />
+      <Amenities />
+    </Layout>
+  )
 }
