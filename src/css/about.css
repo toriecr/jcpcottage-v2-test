@@ -3,7 +3,6 @@
 about
 ===============
 */
-/* underline added to globals */
 .about {
   margin-top: -5rem;
   padding-top: 5rem;
@@ -49,7 +48,8 @@ about
     background: var(--clr-white);
   } */
   .about-center {
-    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: 1fr 1fr;
   }
 
   .about h4 {
@@ -61,8 +61,8 @@ about
   }
   .about-img {
     display: block;
-    grid-row: 1/1;
-    grid-column: 6/-1;
+    /* grid-row: 1/1; */
+    /* grid-column: 6/-1; */
   }
 }
 @media screen and (min-width: 1170px) {
@@ -71,7 +71,7 @@ about
   }
 
   .about-info {
-    grid-column: 1 / span 8;
+    /* grid-column: 1 / span 8; */
   }
 
   .about h4 {
